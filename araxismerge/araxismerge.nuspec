@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>araxismerge</id>
+    <title>araxismerge</title>
+    <version>2013.4377</version>
+    <authors>Araxis</authors>
+    <owners>Robin Minto</owners>
+    <summary>araxismerge</summary>
+    <description>araxismerge</description>
+    <projectUrl>http://www.araxis.com/merge/</projectUrl>
+    <tags>araxismerge admin</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.araxis.com/merge/documentation-windows/licence-agreement.en</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.github.com/https://github.com/robinminto/ChocolateyPackages/master/araxismerge/araxismerge.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
