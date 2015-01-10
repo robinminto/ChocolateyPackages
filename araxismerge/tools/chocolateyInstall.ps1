@@ -1,7 +1,7 @@
 ﻿$packageName = 'araxismerge'
 $installerType = 'MSI'
-$url = 'http://www.araxis.com/download/Merge2014.4531-Win32.msi'
-$url64 = 'http://www.araxis.com/download/Merge2014.4531-x64.msi'
+$url = 'http://www.araxis.com/download/Merge2014.4565-Win32.msi'
+$url64 = 'http://www.araxis.com/download/Merge2014.4565-x64.msi'
 $silentArgs = '/quiet'
 $validExitCodes = @(0)
 
