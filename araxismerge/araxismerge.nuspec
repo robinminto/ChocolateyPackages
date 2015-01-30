@@ -3,12 +3,18 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>araxismerge</id>
-    <title>araxismerge</title>
+    <title>Araxis Merge</title>
     <version>2014.4565</version>
     <authors>Araxis</authors>
     <owners>Robin Minto</owners>
-    <summary>araxismerge</summary>
-    <description>araxismerge</description>
+    <summary>Advanced two and three-way file comparison (diff), merging and folder synchronization.</summary>
+    <description>Two and three-way file comparison of files including text, image, binary, Word, Excel, OpenDocument, PDF and RTF files. ASCII, MBCS and Unicode character encodings are supported.
+
+In-place editing and straightforward merging. Colour-coded side-by-side comparison. Highlights of changes within lines.  Can be configured to ignore differences in whitespace and line endings, as well as changes in lines matching specified regular expressions.
+
+Supports folder hierarchy comparison and synchronization, enabling you to compare and merge entire directory trees.
+
+**Note: this is commercial software.** Package maintainers have no affiliation with Araxis.</description>
     <projectUrl>http://www.araxis.com/merge/</projectUrl>
     <tags>araxis merge diff file-compare folder-compare</tags>
     <copyright></copyright>
