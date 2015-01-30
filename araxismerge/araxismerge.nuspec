@@ -20,7 +20,7 @@ Supports folder hierarchy comparison and synchronization, enabling you to compar
     <copyright></copyright>
     <licenseUrl>http://www.araxis.com/merge/documentation-windows/licence-agreement.en</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.github.com/https://github.com/robinminto/ChocolateyPackages/master/araxismerge/araxismerge.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/robinminto/ChocolateyPackages/484b0d96be3d79a7d0daa0c37721d75f56b1ec6d/araxismerge/araxismerge.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
