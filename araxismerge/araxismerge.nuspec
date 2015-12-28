@@ -14,9 +14,9 @@ In-place editing and straightforward merging. Colour-coded side-by-side comparis
 
 Supports folder hierarchy comparison and synchronization, enabling you to compare and merge entire directory trees.
 
-**Note: this is commercial software.** Package maintainers have no affiliation with Araxis.</description>
+**Note: this is commercial software.** Without a valid licence, this is a 30-day trial version. Package maintainers have no affiliation with Araxis.</description>
     <projectUrl>http://www.araxis.com/merge/</projectUrl>
-    <tags>araxis merge diff file-compare folder-compare</tags>
+    <tags>araxis merge diff file-compare folder-compare admin trial</tags>
     <copyright></copyright>
     <licenseUrl>http://www.araxis.com/merge/documentation-windows/licence-agreement.en</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -24,7 +24,8 @@ Supports folder hierarchy comparison and synchronization, enabling you to compar
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
-    <releaseNotes></releaseNotes>
+    <releaseNotes>http://www.araxis.com/merge/documentation-windows/release-notes.en</releaseNotes>
+    <docsUrl>http://www.araxis.com/merge/documentation.en</docsUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
