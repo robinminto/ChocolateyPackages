@@ -1,8 +1,22 @@
-﻿$packageName = 'araxismerge'
+$packageName = 'araxismerge'
 $installerType = 'MSI'
-$url = 'https://www.araxis.com/download/Merge2016.4801-Win32.msi'
+$url32 = 'https://www.araxis.com/download/Merge2016.4801-Win32.msi'
 $url64 = 'https://www.araxis.com/download/Merge2016.4801-x64.msi'
+$checksum32  = ''
+$checksum64  = ''
 $silentArgs = '/quiet'
 $validExitCodes = @(0)
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" "$url64"  -validExitCodes $validExitCodes
+$packageArgs = @{
+  packageName    = $packageName
+  installerType  = $installerType
+  url            = $url32
+  url64Bit       = $url64
+  checksum       = $checksum32
+  checksum64     = $checksum64
+  checksumType   = 'sha256'
+  checksumType64 = 'sha256'
+  silentArgs     = $silentArgs
+  validExitCodes = $validExitCodes
+}
+Install-ChocolateyPackage @packageArgs
