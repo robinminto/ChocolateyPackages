@@ -27,4 +27,4 @@ function global:au_GetLatest {
     return $Latest
 }
 
-update -ChecksumFor all
+update-package -ChecksumFor all
