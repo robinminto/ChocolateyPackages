@@ -1,9 +1,9 @@
 $packageName = 'araxismerge'
 $installerType = 'MSI'
-$url32 = 'https://www.araxis.com/download/Merge2016.4801-Win32.msi'
-$url64 = 'https://www.araxis.com/download/Merge2016.4801-x64.msi'
-$checksum32  = '841b9f47381b3af62c748335e6a2093d711912edbf8c5fa0b31f3d9ce5723dc7'
-$checksum64  = '7052f66054dd1e1f0d257905ec3f99cf055d774640c9695c9368410fb470adaa'
+$url32 = 'https://www.araxis.com/download/Merge2017.4842-Win32.msi'
+$url64 = 'https://www.araxis.com/download/Merge2017.4842-x64.msi'
+$checksum32  = 'a00ac615da1cfb2366b931a8bf7cf1a9a3493c443766a15da54ab6f42f0f1ed3'
+$checksum64  = '91ab1ae67e96c36fb0e726c950d70cfa840e3cfe83a2ceb09a01b034adee1351'
 $silentArgs = '/quiet'
 $validExitCodes = @(0)
 
