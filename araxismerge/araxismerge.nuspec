@@ -4,7 +4,7 @@
   <metadata>
     <id>araxismerge</id>
     <title>Araxis Merge</title>
-    <version>2016.4801</version>
+    <version>2017.4842</version>
     <authors>Araxis</authors>
     <owners>Robin Minto</owners>
     <summary>Advanced two and three-way file comparison (diff), merging and folder synchronization.</summary>
@@ -20,7 +20,7 @@ Supports folder hierarchy comparison and synchronization, enabling you to compar
     <copyright></copyright>
     <licenseUrl>http://www.araxis.com/merge/documentation-windows/licence-agreement.en</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/robinminto/ChocolateyPackages/484b0d96be3d79a7d0daa0c37721d75f56b1ec6d/araxismerge/araxismerge.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/robinminto/ChocolateyPackages/master/araxismerge/araxismerge.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
