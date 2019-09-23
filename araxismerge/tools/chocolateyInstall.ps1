@@ -1,9 +1,9 @@
 ﻿$packageName = 'araxismerge'
 $installerType = 'MSI'
-$url32 = 'https://www.araxis.com/download/Merge2018.5004-Win32.msi'
-$url64 = 'https://www.araxis.com/download/Merge2018.5004-x64.msi'
-$checksum32  = 'ae2efe01354e9c098df79bded579886f4c1a087cf88e7e627c4c68e1a37a8be4'
-$checksum64  = '33e03364252fb3a5a03366a271e853258665622c290aa5e1dfd3280967d5b8ea'
+$url32 = 'https://www.araxis.com/download/Merge2019.5174-x64.msi'
+$url64 = 'https://www.araxis.com/download/Merge2019.5187-x64.msi'
+$checksum32  = 'fad54984ba82582eb0c91425f0d3d26f1a03aa2413ffd493ff5958e33007a479'
+$checksum64  = '87f753d8d7a1991fb0290ba55ebef8ade3907f03eace4809d5da5ed9ffe836bf'
 $silentArgs = '/quiet'
 $validExitCodes = @(0)
 
