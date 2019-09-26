@@ -16,13 +16,14 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $downloadPage = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $re  = "https://www\.araxis\.com/download/Merge(?<version>\d{4}\.\d{4,})-(x64|Win32)\.msi"
-    $url = $downloadPage.links | ? href -match $re | select -First 2 -expand href
-
+    $re64  = "https://www\.araxis\.com/download/Merge(?<version>\d{4}\.\d{4,})-(x64)\.msi"
+    $url64 = $downloadPage.links | ? href -match $re64 | select -First 1 -expand href
+    # Use the version of the latest x64 package. Win32 version is no longer updated.
     $version = $matches.version
-    $url64 = $url[0]
-    $url32 = $url[1]
 
+    $re32  = "https://www\.araxis\.com/download/Merge(?<version>\d{4}\.\d{4,})-(Win32)\.msi"
+    $url32 = $downloadPage.links | ? href -match $re32 | select -First 1 -expand href
+    
     $Latest = @{ URL32 = $url32; URL64 = $url64; Version = $version }
     return $Latest
 }
