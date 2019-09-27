@@ -21,9 +21,9 @@ Supports folder hierarchy comparison and synchronization, enabling you to compar
     <licenseUrl>http://www.araxis.com/merge/documentation-windows/licence-agreement.en</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/robinminto/ChocolateyPackages/master/araxismerge/araxismerge.png</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
+    <dependencies>
+      <dependency id="KB2919355" version="1.0" />
+    </dependencies>
     <releaseNotes>http://www.araxis.com/merge/documentation-windows/release-notes.en</releaseNotes>
     <docsUrl>http://www.araxis.com/merge/documentation.en</docsUrl>
     <packageSourceUrl>https://github.com/robinminto/ChocolateyPackages</packageSourceUrl>
