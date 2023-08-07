@@ -27,3 +27,7 @@ function global:au_GetLatest {
 }
 
 update-package -ChecksumFor None
+
+git add .\araxismerge.nuspec
+git add .\tools\chocolateyInstall.ps1
+git commit -m "Araxis Merge $($Latest.Version)"
