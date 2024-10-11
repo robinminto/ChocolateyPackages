@@ -19,14 +19,14 @@ function global:au_GetLatest {
     $downloadPage = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
     $re64  = "https://www\.araxis\.com/download/Merge(?<version>\d{4}\.\d{4,})-(x64)\.msi"
-    $url64 = $downloadPage.links | ? href -match $re64 | select -First 1 -expand href
+    $url64 = $downloadPage.links | Where-Object href -Match $re64 | Select-Object -First 1 -ExpandProperty href
     $version = $matches.version
 
     $Latest = @{ URL64 = $url64; Version = $version }
     return $Latest
 }
 
-update-package -ChecksumFor None
+Update-Package -ChecksumFor None
 
 git add .\araxismerge.nuspec
 git add .\tools\chocolateyInstall.ps1
