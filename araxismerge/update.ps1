@@ -30,4 +30,4 @@ Update-Package -ChecksumFor None
 
 git add .\araxismerge.nuspec
 git add .\tools\chocolateyInstall.ps1
-git commit -m "Araxis Merge $($Latest.Version)"
+git commit -m "Araxis Merge $($Latest.Version)" --no-verify
