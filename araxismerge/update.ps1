@@ -18,7 +18,7 @@ function global:au_BeforeUpdate() {
 function global:au_GetLatest {
     $downloadPage = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $re64  = "https://www\.araxis\.com/download/Merge(?<version>\d{4}\.\d{4,})-(x64)\.msi"
+    $re64  = "https://www\.araxis\.com/download/Merge(?<version>\d{4}\.\d{1,})-(x64)\.msi"
     $url64 = $downloadPage.links | Where-Object href -Match $re64 | Select-Object -First 1 -ExpandProperty href
     $version = $matches.version
 
